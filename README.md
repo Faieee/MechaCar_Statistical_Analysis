@@ -27,3 +27,25 @@ A statistical summary was carried out on the suspension coil data for both the w
 
 ### Analysis
 The overall variance of PSI accross all three lots meets specification, but this is misleading data. In reality, lots 1 and 2 have excellent variance (1 PSI and 7.5 PSI respectively), but lot 3 does not meet specification at 170.3 PSI of variance.
+
+# T-Tests on Suspension Coils
+T-tests were carried out on the full population, as well as on the three lots individually, comparing the PSI of the cars on that lot to the general population mean of 1500 PSI.
+
+### All Lots
+
+![](images/all_lots.png)
+
+### Lot 1
+
+![](images/lot1.png)
+
+### Lot 2
+
+![](images/lot2.png)
+
+### Lot 3
+
+![](images/lot3.png)
+
+### Analysis
+The full selection of cars across all lots failed the null hypothesis with a p value of 0.06, indicating that it was likely a random selection of cars. Lots 1 and 2 (p values 1 and 0.61) showed random sampling as well, but lot 3 (p = 0.04) shows an outside factor that influenced the PSI of the cars there.
