@@ -49,3 +49,12 @@ T-tests were carried out on the full population, as well as on the three lots in
 
 ### Analysis
 The full selection of cars across all lots failed the null hypothesis with a p value of 0.06, indicating that it was likely a random selection of cars. Lots 1 and 2 (p values 1 and 0.61) showed random sampling as well, but lot 3 (p = 0.04) shows an outside factor that influenced the PSI of the cars there.
+
+# Study Design: MechaCar vs Competition
+When comparing MechaCars against other car companies, a useful area of comparison would be the consistency of PSI in the cars, as well as whether or not the choice of PSI affects city and highway mpg.
+
+To see the effect of PSI on mileage of the cars, the null hypothesis that will be tested is "The mean PSI of MechaCars and [other cars] has no effect on city and highway mpg."
+
+A two-sample t-test would be used to find the possibility of rejecting the null hypothesis.
+
+To run the test, the only data that is needed is the PSI and mileage data of the competitors' cars.
